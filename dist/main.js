@@ -1,0 +1,1 @@
+(()=>{Array.prototype.unique=function(){return[...new Set(this)]},console.log([1,2,2,3,4,4,5].unique());const e=new Set;e.add({name:"John"}),console.log(e);const o=new WeakSet,n={};o.add(n),console.log(o.has(n));const t=new Map;t.set(11,"value for 11"),console.log(t.get(11));const s=new WeakMap,a={};s.set(a,"value associated with keyObject"),console.log(s.get(a))})();
